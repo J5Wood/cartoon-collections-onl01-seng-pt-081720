@@ -20,7 +20,7 @@ def find_the_cheese(grocery_bag)
 
     if grocery_bag.include?(cheese_types[i])
       binding.pry
-      return
+      return cheese_type[i]
     else
       binding.pry
       i += 1
