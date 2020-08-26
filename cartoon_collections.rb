@@ -1,3 +1,5 @@
+require 'pry'
+
 def roll_call_dwarves(dwarves)
   dwarves.each_with_index { |name, i| puts "#{i + 1} " + name }
 end
@@ -17,8 +19,10 @@ def find_the_cheese(grocery_bag)
   while i < cheese_types.length
 
     if grocery_bag.include?(cheese_types[i])
+      binding.pry
       return
     else
+      binding.pry
       i += 1
     end
   end
