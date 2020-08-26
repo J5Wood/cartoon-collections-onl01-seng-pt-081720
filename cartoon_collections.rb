@@ -6,8 +6,9 @@ def summon_captain_planet(planet_powers)
   planet_powers.collect { |power| power.capitalize + "!"}
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(long_calls)
+  long_calls.any? { |call| call.length > 4 }
+  
 end
 
 def find_the_cheese# code an argument here
