@@ -15,6 +15,6 @@ end
 def find_the_cheese(grocery_bag)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  grocery_bag.find { |item| cheese_types.any?(item) } 
+  grocery_bag.find { |item| cheese_types.any?(item) }
     
 end
