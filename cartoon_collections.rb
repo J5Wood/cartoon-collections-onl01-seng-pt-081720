@@ -20,4 +20,6 @@ def find_the_cheese(grocery_bag)
       return
     else
       i += 1
+    end
+  end
 end
